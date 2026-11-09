@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: messmate
+    runtime: node
+    plan: free
+    buildCommand: npm run setup && npm run build
+    startCommand: npm --prefix server start
+    envVars:
+      - key: NODE_VERSION
+        value: 22.13.1
