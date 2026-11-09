@@ -48,14 +48,15 @@ router.post('/auth/register', (req, res) => {
       userId, String(name).slice(0, 40), String(email).trim(), String(rollNo).slice(0, 20), String(hostel || 'Bakul').slice(0, 30), U.hashPassword(String(password)), nowIso());
     txn(userId, 500, 'Welcome bonus 🎉');
   });
-  res.json({ token: createSession(userId, req.headers['user-agent']), user: getUser(userId) });
+  const user = getUser(userId);
+  res.json({ token: createSession(user, req.headers['user-agent']), user });
 });
 
 router.post('/auth/login', (req, res) => {
   const { email, password } = req.body || {};
   const row = q.get('SELECT * FROM users WHERE email = ?', String(email || '').trim());
   if (!row || !U.verifyPassword(String(password || ''), row.password_hash)) return res.status(401).json({ error: 'wrong email or password' });
-  res.json({ token: createSession(row.id, req.headers['user-agent']), user: publicUser(row) });
+  res.json({ token: createSession(row, req.headers['user-agent']), user: publicUser(row) });
 });
 
 // Logout = delete this device's session row, so the token stops working immediately.

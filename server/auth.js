@@ -6,21 +6,33 @@ const SESSION_DAYS = 30;
 const SECRET = process.env.APP_SECRET || 'messmate-dev-secret-key-2026';
 const hashToken = (t) => crypto.createHash('sha256').update(String(t)).digest('hex');
 
-const signToken = (userId) => {
+const signToken = (payloadObj) => {
   const expires = Date.now() + SESSION_DAYS * 86_400_000;
-  const payload = `${userId}.${expires}`;
-  const sig = crypto.createHmac('sha256', SECRET).update(payload).digest('base64url');
-  return `${payload}.${sig}`;
+  const data = Buffer.from(JSON.stringify({ ...payloadObj, exp: expires })).toString('base64url');
+  const sig = crypto.createHmac('sha256', SECRET).update(data).digest('base64url');
+  return `${data}.${sig}`;
 };
 
 const verifyToken = (token) => {
   const parts = String(token || '').split('.');
-  if (parts.length !== 3) return null;
-  const [userId, expires, sig] = parts;
-  if (Number(expires) < Date.now()) return null;
-  const expectedSig = crypto.createHmac('sha256', SECRET).update(`${userId}.${expires}`).digest('base64url');
+  if (parts.length === 3) {
+    const [userId, expires, sig] = parts;
+    if (Number(expires) < Date.now()) return null;
+    const expectedSig = crypto.createHmac('sha256', SECRET).update(`${userId}.${expires}`).digest('base64url');
+    if (sig === expectedSig) return { id: userId };
+    return null;
+  }
+  if (parts.length !== 2) return null;
+  const [data, sig] = parts;
+  const expectedSig = crypto.createHmac('sha256', SECRET).update(data).digest('base64url');
   if (sig !== expectedSig) return null;
-  return userId;
+  try {
+    const payload = JSON.parse(Buffer.from(data, 'base64url').toString('utf8'));
+    if (!payload.exp || Number(payload.exp) < Date.now()) return null;
+    return payload;
+  } catch {
+    return null;
+  }
 };
 
 // Error type the routes can throw (also from inside transactions); index.js turns it into a JSON response.
@@ -34,13 +46,26 @@ const publicUser = (r) => r && ({
 });
 const getUser = (userId) => publicUser(q.get('SELECT * FROM users WHERE id = ?', userId));
 
-function createSession(userId, userAgent = '') {
-  const token = signToken(userId);
+function createSession(userOrId, userAgent = '') {
+  let userObj;
+  if (typeof userOrId === 'object' && userOrId !== null) {
+    userObj = userOrId;
+  } else {
+    userObj = q.get('SELECT * FROM users WHERE id = ?', userOrId) || { id: userOrId };
+  }
+  const token = signToken({
+    id: userObj.id,
+    email: userObj.email,
+    name: userObj.name,
+    role: userObj.role || 'student',
+    rollNo: userObj.roll_no || userObj.rollNo || '',
+    hostel: userObj.hostel || 'Bakul',
+  });
   try {
     const now = new Date();
     const expires = new Date(now.getTime() + SESSION_DAYS * 86_400_000);
     q.run('INSERT OR REPLACE INTO sessions (id, user_id, user_agent, created_at, expires_at) VALUES (?,?,?,?,?)',
-      hashToken(token), userId, String(userAgent).slice(0, 200), now.toISOString(), expires.toISOString());
+      hashToken(token), userObj.id, String(userAgent).slice(0, 200), now.toISOString(), expires.toISOString());
   } catch { /* ignore db session write error in serverless */ }
   return token;
 }
@@ -49,10 +74,26 @@ function auth(req, res, next) {
   const rawToken = (req.headers.authorization || '').replace(/^Bearer /, '');
   if (!rawToken) return res.status(401).json({ error: 'login required' });
 
-  // 1. Verify stateless signed token (works across all serverless lambda instances)
-  const verifiedUserId = verifyToken(rawToken);
-  if (verifiedUserId) {
-    const userRow = q.get('SELECT * FROM users WHERE id = ?', verifiedUserId);
+  // 1. Verify stateless signed token
+  const payload = verifyToken(rawToken);
+  if (payload && (payload.id || payload.email)) {
+    let userRow = payload.id ? q.get('SELECT * FROM users WHERE id = ?', payload.id) : null;
+    if (!userRow && payload.email) {
+      userRow = q.get('SELECT * FROM users WHERE email = ?', payload.email);
+    }
+
+    // Auto-provision missing user in this container if needed
+    if (!userRow && payload.email) {
+      try {
+        q.run(`INSERT OR IGNORE INTO users (id, name, email, roll_no, hostel, avatar, bio, role, password_hash, wallet, xp, joined_at)
+               VALUES (?,?,?,?,?,'🙂','',?,'',500,0,?)`,
+               payload.id, payload.name || 'User', payload.email, payload.rollNo || '', payload.hostel || 'Bakul', payload.role || 'student', new Date().toISOString());
+        userRow = q.get('SELECT * FROM users WHERE email = ?', payload.email);
+      } catch (e) {
+        console.error('Auto-provision user error:', e);
+      }
+    }
+
     if (userRow) {
       req.user = publicUser(userRow);
       req.sessionId = hashToken(rawToken);

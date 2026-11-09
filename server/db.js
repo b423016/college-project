@@ -2,6 +2,7 @@
 // File: server/data/messmate.db  (override with DB_FILE env var)
 const fs = require('fs');
 const path = require('path');
+const crypto = require('crypto');
 const { DatabaseSync } = require('node:sqlite');
 const { MEALS, id, dateStr, hashPassword } = require('./utils');
 
@@ -266,8 +267,9 @@ q.run('DELETE FROM sessions WHERE expires_at < ?', new Date().toISOString());
 function seed() {
   const daysAgo = (n, hour = 10) => { const d = new Date(); d.setDate(d.getDate() - n); d.setHours(hour, 0, 0, 0); return d; };
   const pw = hashPassword('password123');
+  const idFromEmail = (em) => crypto.createHash('md5').update(String(em).toLowerCase().trim()).digest('hex').slice(0, 12);
   const mk = (name, email, rollNo, hostel, avatar, extra = {}) => ({
-    id: id(), name, email, rollNo, hostel, avatar, passwordHash: pw, role: 'student',
+    id: idFromEmail(email), name, email, rollNo, hostel, avatar, passwordHash: pw, role: 'student',
     wallet: 500, xp: 0, bio: '', joinedAt: daysAgo(30).toISOString(), ...extra,
   });
 
