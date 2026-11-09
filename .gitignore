@@ -1,0 +1,15 @@
+.vercel/
+.vercel
+node_modules/
+client/node_modules/
+server/node_modules/
+client/dist/
+.DS_Store
+.env
+.env.*
+*.local
+
+# SQLite database files (recreated + seeded automatically)
+server/data/*.db
+server/data/*.db-wal
+server/data/*.db-shm

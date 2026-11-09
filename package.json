@@ -1,0 +1,22 @@
+{
+  "name": "messmate",
+  "private": true,
+  "description": "IIIT mess management: React (Vite) + Express/Node API + SQLite database",
+  "scripts": {
+    "setup": "npm install && npm --prefix server install && npm --prefix client install",
+    "dev": "concurrently -k -n api,web -c yellow,magenta \"npm --prefix server run dev\" \"npm --prefix client run dev\"",
+    "build": "npm --prefix client install && npm --prefix client run build",
+    "start": "npm run build && npm --prefix server start",
+    "reset": "npm --prefix server run reset"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "concurrently": "9.1.0"
+  },
+  "engines": {
+    "node": "22.x"
+  }
+}

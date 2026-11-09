@@ -1,0 +1,20 @@
+{
+  "name": "messmate-server",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "reset": "node -e \"for (const f of ['messmate.db','messmate.db-wal','messmate.db-shm']) require('fs').rmSync('./data/'+f,{force:true})\" && echo 'database deleted, a fresh demo DB is seeded on next start'"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "messmate": "file:.."
+  },
+  "description": "MessMate API: Express + SQLite (node:sqlite)",
+  "engines": {
+    "node": ">=22.13"
+  }
+}

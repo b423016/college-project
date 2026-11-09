@@ -1,0 +1,2716 @@
+{
+  "users": [
+    {
+      "id": "95dfab41cab9",
+      "name": "Mess Admin",
+      "email": "admin@iiit.ac.in",
+      "rollNo": "ADMIN",
+      "hostel": "Mess Office",
+      "avatar": "👨‍🍳",
+      "passwordHash": "810be881f526d188:e75fcf1ee4cbff81f52a69f531bfb1b6a70882b97599dc6339e00308fa2bf7ec",
+      "role": "admin",
+      "wallet": 0,
+      "xp": 0,
+      "bio": "",
+      "joinedAt": "2026-10-04T04:30:00.000Z"
+    },
+    {
+      "id": "4c62644348f1",
+      "name": "Aarav Sharma",
+      "email": "aarav@iiit.ac.in",
+      "rollNo": "2023CS101",
+      "hostel": "Bakul",
+      "avatar": "😎",
+      "passwordHash": "810be881f526d188:e75fcf1ee4cbff81f52a69f531bfb1b6a70882b97599dc6339e00308fa2bf7ec",
+      "role": "student",
+      "wallet": 500,
+      "xp": 400,
+      "bio": "maggi at 3am enjoyer",
+      "joinedAt": "2026-10-04T04:30:00.000Z"
+    },
+    {
+      "id": "518686d0bc0c",
+      "name": "Diya Patel",
+      "email": "diya@iiit.ac.in",
+      "rollNo": "2023EC042",
+      "hostel": "Parijaat",
+      "avatar": "🦋",
+      "passwordHash": "810be881f526d188:e75fcf1ee4cbff81f52a69f531bfb1b6a70882b97599dc6339e00308fa2bf7ec",
+      "role": "student",
+      "wallet": 500,
+      "xp": 465,
+      "bio": "paneer > everything",
+      "joinedAt": "2026-10-04T04:30:00.000Z"
+    },
+    {
+      "id": "818971a513ea",
+      "name": "Kabir Singh",
+      "email": "kabir@iiit.ac.in",
+      "rollNo": "2022CS077",
+      "hostel": "Bakul",
+      "avatar": "🔥",
+      "passwordHash": "810be881f526d188:e75fcf1ee4cbff81f52a69f531bfb1b6a70882b97599dc6339e00308fa2bf7ec",
+      "role": "student",
+      "wallet": 500,
+      "xp": 405,
+      "bio": "",
+      "joinedAt": "2026-10-04T04:30:00.000Z"
+    },
+    {
+      "id": "ed4b51c427aa",
+      "name": "Ananya Rao",
+      "email": "ananya@iiit.ac.in",
+      "rollNo": "2024CS015",
+      "hostel": "Parijaat",
+      "avatar": "🌸",
+      "passwordHash": "810be881f526d188:e75fcf1ee4cbff81f52a69f531bfb1b6a70882b97599dc6339e00308fa2bf7ec",
+      "role": "student",
+      "wallet": 500,
+      "xp": 410,
+      "bio": "",
+      "joinedAt": "2026-10-04T04:30:00.000Z"
+    },
+    {
+      "id": "bc14f2a6336e",
+      "name": "Vihaan Gupta",
+      "email": "vihaan@iiit.ac.in",
+      "rollNo": "2023ME009",
+      "hostel": "Obh",
+      "avatar": "🐼",
+      "passwordHash": "810be881f526d188:e75fcf1ee4cbff81f52a69f531bfb1b6a70882b97599dc6339e00308fa2bf7ec",
+      "role": "student",
+      "wallet": 500,
+      "xp": 295,
+      "bio": "",
+      "joinedAt": "2026-10-04T04:30:00.000Z"
+    },
+    {
+      "id": "f2829836c109",
+      "name": "Ishita Verma",
+      "email": "ishita@iiit.ac.in",
+      "rollNo": "2022EC120",
+      "hostel": "Kadamba",
+      "avatar": "✨",
+      "passwordHash": "810be881f526d188:e75fcf1ee4cbff81f52a69f531bfb1b6a70882b97599dc6339e00308fa2bf7ec",
+      "role": "student",
+      "wallet": 500,
+      "xp": 255,
+      "bio": "",
+      "joinedAt": "2026-10-04T04:30:00.000Z"
+    },
+    {
+      "id": "3cb404660451",
+      "name": "Rohan Mehta",
+      "email": "rohan@iiit.ac.in",
+      "rollNo": "2024CS088",
+      "hostel": "Obh",
+      "avatar": "🎧",
+      "passwordHash": "810be881f526d188:e75fcf1ee4cbff81f52a69f531bfb1b6a70882b97599dc6339e00308fa2bf7ec",
+      "role": "student",
+      "wallet": 500,
+      "xp": 350,
+      "bio": "",
+      "joinedAt": "2026-10-04T04:30:00.000Z"
+    }
+  ],
+  "menu": {
+    "Monday": {
+      "breakfast": [
+        "Aloo Paratha",
+        "Curd",
+        "Tea/Coffee"
+      ],
+      "lunch": [
+        "Rajma",
+        "Jeera Rice",
+        "Roti",
+        "Salad"
+      ],
+      "snacks": [
+        "Samosa",
+        "Chai"
+      ],
+      "dinner": [
+        "Paneer Butter Masala",
+        "Naan",
+        "Dal Fry",
+        "Gulab Jamun"
+      ]
+    },
+    "Tuesday": {
+      "breakfast": [
+        "Poha",
+        "Jalebi",
+        "Milk"
+      ],
+      "lunch": [
+        "Chole",
+        "Bhature",
+        "Rice",
+        "Raita"
+      ],
+      "snacks": [
+        "Bread Pakoda",
+        "Coffee"
+      ],
+      "dinner": [
+        "Mix Veg",
+        "Roti",
+        "Dal Tadka",
+        "Rice"
+      ]
+    },
+    "Wednesday": {
+      "breakfast": [
+        "Idli",
+        "Sambar",
+        "Coconut Chutney"
+      ],
+      "lunch": [
+        "Kadhi Pakoda",
+        "Rice",
+        "Aloo Gobi",
+        "Roti"
+      ],
+      "snacks": [
+        "Maggi",
+        "Tea"
+      ],
+      "dinner": [
+        "Chicken Curry / Paneer Tikka",
+        "Biryani Rice",
+        "Raita",
+        "Ice Cream"
+      ]
+    },
+    "Thursday": {
+      "breakfast": [
+        "Upma",
+        "Banana",
+        "Tea/Coffee"
+      ],
+      "lunch": [
+        "Dal Makhani",
+        "Rice",
+        "Bhindi Fry",
+        "Roti"
+      ],
+      "snacks": [
+        "Vada Pav",
+        "Chai"
+      ],
+      "dinner": [
+        "Egg Curry / Malai Kofta",
+        "Roti",
+        "Rice",
+        "Kheer"
+      ]
+    },
+    "Friday": {
+      "breakfast": [
+        "Masala Dosa",
+        "Sambar",
+        "Chutney"
+      ],
+      "lunch": [
+        "Sambar",
+        "Rice",
+        "Cabbage Poriyal",
+        "Curd"
+      ],
+      "snacks": [
+        "Pav Bhaji"
+      ],
+      "dinner": [
+        "Veg Biryani",
+        "Mirchi Salan",
+        "Raita",
+        "Rasmalai"
+      ]
+    },
+    "Saturday": {
+      "breakfast": [
+        "Chole Kulche",
+        "Lassi"
+      ],
+      "lunch": [
+        "Matar Paneer",
+        "Pulao",
+        "Roti",
+        "Papad"
+      ],
+      "snacks": [
+        "Momos",
+        "Cold Coffee"
+      ],
+      "dinner": [
+        "Pasta (Red Sauce)",
+        "Garlic Bread",
+        "Soup",
+        "Brownie"
+      ]
+    },
+    "Sunday": {
+      "breakfast": [
+        "Puri Sabzi",
+        "Halwa",
+        "Tea"
+      ],
+      "lunch": [
+        "Special Thali",
+        "Dal Baati",
+        "Churma"
+      ],
+      "snacks": [
+        "Pani Puri",
+        "Lemonade"
+      ],
+      "dinner": [
+        "Fried Rice",
+        "Manchurian",
+        "Hakka Noodles",
+        "Ice Cream"
+      ]
+    }
+  },
+  "attendance": [
+    {
+      "id": "29869ed160aa",
+      "userId": "4c62644348f1",
+      "date": "2026-10-20",
+      "meal": "lunch",
+      "at": "2026-10-20T06:30:00.000Z"
+    },
+    {
+      "id": "d331fd6ad026",
+      "userId": "4c62644348f1",
+      "date": "2026-10-20",
+      "meal": "snacks",
+      "at": "2026-10-20T11:30:00.000Z"
+    },
+    {
+      "id": "4a8b768f20f6",
+      "userId": "4c62644348f1",
+      "date": "2026-10-20",
+      "meal": "dinner",
+      "at": "2026-10-20T13:30:00.000Z"
+    },
+    {
+      "id": "abe99c026218",
+      "userId": "4c62644348f1",
+      "date": "2026-10-21",
+      "meal": "breakfast",
+      "at": "2026-10-21T01:30:00.000Z"
+    },
+    {
+      "id": "75382351b995",
+      "userId": "4c62644348f1",
+      "date": "2026-10-22",
+      "meal": "breakfast",
+      "at": "2026-10-22T01:30:00.000Z"
+    },
+    {
+      "id": "1915f08690d8",
+      "userId": "4c62644348f1",
+      "date": "2026-10-22",
+      "meal": "lunch",
+      "at": "2026-10-22T06:30:00.000Z"
+    },
+    {
+      "id": "cf13bad42028",
+      "userId": "4c62644348f1",
+      "date": "2026-10-22",
+      "meal": "snacks",
+      "at": "2026-10-22T11:30:00.000Z"
+    },
+    {
+      "id": "4f025cdc0453",
+      "userId": "4c62644348f1",
+      "date": "2026-10-22",
+      "meal": "dinner",
+      "at": "2026-10-22T13:30:00.000Z"
+    },
+    {
+      "id": "bef1634a33c9",
+      "userId": "4c62644348f1",
+      "date": "2026-10-23",
+      "meal": "breakfast",
+      "at": "2026-10-23T01:30:00.000Z"
+    },
+    {
+      "id": "528243e122f7",
+      "userId": "4c62644348f1",
+      "date": "2026-10-23",
+      "meal": "lunch",
+      "at": "2026-10-23T06:30:00.000Z"
+    },
+    {
+      "id": "4011f9e1a9fa",
+      "userId": "4c62644348f1",
+      "date": "2026-10-23",
+      "meal": "snacks",
+      "at": "2026-10-23T11:30:00.000Z"
+    },
+    {
+      "id": "693bf459a1fc",
+      "userId": "4c62644348f1",
+      "date": "2026-10-24",
+      "meal": "lunch",
+      "at": "2026-10-24T06:30:00.000Z"
+    },
+    {
+      "id": "be6bcf858233",
+      "userId": "4c62644348f1",
+      "date": "2026-10-24",
+      "meal": "snacks",
+      "at": "2026-10-24T11:30:00.000Z"
+    },
+    {
+      "id": "7721030f4045",
+      "userId": "4c62644348f1",
+      "date": "2026-10-25",
+      "meal": "breakfast",
+      "at": "2026-10-25T01:30:00.000Z"
+    },
+    {
+      "id": "d511db4140fd",
+      "userId": "4c62644348f1",
+      "date": "2026-10-25",
+      "meal": "lunch",
+      "at": "2026-10-25T06:30:00.000Z"
+    },
+    {
+      "id": "dd6bcba3609a",
+      "userId": "4c62644348f1",
+      "date": "2026-10-25",
+      "meal": "snacks",
+      "at": "2026-10-25T11:30:00.000Z"
+    },
+    {
+      "id": "081a83c1101f",
+      "userId": "4c62644348f1",
+      "date": "2026-10-25",
+      "meal": "dinner",
+      "at": "2026-10-25T13:30:00.000Z"
+    },
+    {
+      "id": "0cdc7c135328",
+      "userId": "4c62644348f1",
+      "date": "2026-10-26",
+      "meal": "breakfast",
+      "at": "2026-10-26T01:30:00.000Z"
+    },
+    {
+      "id": "af425cb25d6d",
+      "userId": "4c62644348f1",
+      "date": "2026-10-27",
+      "meal": "breakfast",
+      "at": "2026-10-27T01:30:00.000Z"
+    },
+    {
+      "id": "0e4b9823994b",
+      "userId": "4c62644348f1",
+      "date": "2026-10-27",
+      "meal": "lunch",
+      "at": "2026-10-27T06:30:00.000Z"
+    },
+    {
+      "id": "07b31f41a152",
+      "userId": "4c62644348f1",
+      "date": "2026-10-27",
+      "meal": "dinner",
+      "at": "2026-10-27T13:30:00.000Z"
+    },
+    {
+      "id": "e9ad2351c4e8",
+      "userId": "4c62644348f1",
+      "date": "2026-10-28",
+      "meal": "breakfast",
+      "at": "2026-10-28T01:30:00.000Z"
+    },
+    {
+      "id": "6dccd708b895",
+      "userId": "4c62644348f1",
+      "date": "2026-10-28",
+      "meal": "lunch",
+      "at": "2026-10-28T06:30:00.000Z"
+    },
+    {
+      "id": "31a5e9fe7a1a",
+      "userId": "4c62644348f1",
+      "date": "2026-10-28",
+      "meal": "dinner",
+      "at": "2026-10-28T13:30:00.000Z"
+    },
+    {
+      "id": "1bc02d048ca6",
+      "userId": "4c62644348f1",
+      "date": "2026-10-29",
+      "meal": "breakfast",
+      "at": "2026-10-29T01:30:00.000Z"
+    },
+    {
+      "id": "3a74145f1108",
+      "userId": "4c62644348f1",
+      "date": "2026-10-29",
+      "meal": "lunch",
+      "at": "2026-10-29T06:30:00.000Z"
+    },
+    {
+      "id": "314b70b58cb9",
+      "userId": "4c62644348f1",
+      "date": "2026-10-29",
+      "meal": "snacks",
+      "at": "2026-10-29T11:30:00.000Z"
+    },
+    {
+      "id": "4b494b50004a",
+      "userId": "4c62644348f1",
+      "date": "2026-10-29",
+      "meal": "dinner",
+      "at": "2026-10-29T13:30:00.000Z"
+    },
+    {
+      "id": "9b3c66cd829e",
+      "userId": "4c62644348f1",
+      "date": "2026-10-30",
+      "meal": "lunch",
+      "at": "2026-10-30T06:30:00.000Z"
+    },
+    {
+      "id": "17d6317e4b2c",
+      "userId": "4c62644348f1",
+      "date": "2026-10-30",
+      "meal": "dinner",
+      "at": "2026-10-30T13:30:00.000Z"
+    },
+    {
+      "id": "5415974559ad",
+      "userId": "4c62644348f1",
+      "date": "2026-10-31",
+      "meal": "breakfast",
+      "at": "2026-10-31T01:30:00.000Z"
+    },
+    {
+      "id": "bb5a7beb59fe",
+      "userId": "4c62644348f1",
+      "date": "2026-10-31",
+      "meal": "snacks",
+      "at": "2026-10-31T11:30:00.000Z"
+    },
+    {
+      "id": "e5f52146da82",
+      "userId": "4c62644348f1",
+      "date": "2026-10-31",
+      "meal": "dinner",
+      "at": "2026-10-31T13:30:00.000Z"
+    },
+    {
+      "id": "055f6700bc10",
+      "userId": "4c62644348f1",
+      "date": "2026-11-01",
+      "meal": "snacks",
+      "at": "2026-11-01T11:30:00.000Z"
+    },
+    {
+      "id": "25901f9ef43d",
+      "userId": "4c62644348f1",
+      "date": "2026-11-01",
+      "meal": "dinner",
+      "at": "2026-11-01T13:30:00.000Z"
+    },
+    {
+      "id": "0779912ee875",
+      "userId": "4c62644348f1",
+      "date": "2026-11-02",
+      "meal": "lunch",
+      "at": "2026-11-02T06:30:00.000Z"
+    },
+    {
+      "id": "e4bf73d3915c",
+      "userId": "518686d0bc0c",
+      "date": "2026-10-20",
+      "meal": "breakfast",
+      "at": "2026-10-20T01:30:00.000Z"
+    },
+    {
+      "id": "7c8d230c9d4a",
+      "userId": "518686d0bc0c",
+      "date": "2026-10-20",
+      "meal": "lunch",
+      "at": "2026-10-20T06:30:00.000Z"
+    },
+    {
+      "id": "1ffae22d44a4",
+      "userId": "518686d0bc0c",
+      "date": "2026-10-20",
+      "meal": "dinner",
+      "at": "2026-10-20T13:30:00.000Z"
+    },
+    {
+      "id": "0a170f87958d",
+      "userId": "518686d0bc0c",
+      "date": "2026-10-21",
+      "meal": "breakfast",
+      "at": "2026-10-21T01:30:00.000Z"
+    },
+    {
+      "id": "564bf3aa12b8",
+      "userId": "518686d0bc0c",
+      "date": "2026-10-21",
+      "meal": "snacks",
+      "at": "2026-10-21T11:30:00.000Z"
+    },
+    {
+      "id": "6ba46cd95fb2",
+      "userId": "518686d0bc0c",
+      "date": "2026-10-21",
+      "meal": "dinner",
+      "at": "2026-10-21T13:30:00.000Z"
+    },
+    {
+      "id": "84710b2deb95",
+      "userId": "518686d0bc0c",
+      "date": "2026-10-22",
+      "meal": "breakfast",
+      "at": "2026-10-22T01:30:00.000Z"
+    },
+    {
+      "id": "57ffbea277f4",
+      "userId": "518686d0bc0c",
+      "date": "2026-10-22",
+      "meal": "lunch",
+      "at": "2026-10-22T06:30:00.000Z"
+    },
+    {
+      "id": "9f6e8f4d9c82",
+      "userId": "518686d0bc0c",
+      "date": "2026-10-22",
+      "meal": "dinner",
+      "at": "2026-10-22T13:30:00.000Z"
+    },
+    {
+      "id": "afcfbefdd33d",
+      "userId": "518686d0bc0c",
+      "date": "2026-10-23",
+      "meal": "lunch",
+      "at": "2026-10-23T06:30:00.000Z"
+    },
+    {
+      "id": "ea09a1e099a7",
+      "userId": "518686d0bc0c",
+      "date": "2026-10-23",
+      "meal": "snacks",
+      "at": "2026-10-23T11:30:00.000Z"
+    },
+    {
+      "id": "bbfa2552c5ba",
+      "userId": "518686d0bc0c",
+      "date": "2026-10-23",
+      "meal": "dinner",
+      "at": "2026-10-23T13:30:00.000Z"
+    },
+    {
+      "id": "ee9e4e17bb1b",
+      "userId": "518686d0bc0c",
+      "date": "2026-10-24",
+      "meal": "breakfast",
+      "at": "2026-10-24T01:30:00.000Z"
+    },
+    {
+      "id": "3dd6e19c90e4",
+      "userId": "518686d0bc0c",
+      "date": "2026-10-24",
+      "meal": "lunch",
+      "at": "2026-10-24T06:30:00.000Z"
+    },
+    {
+      "id": "41decf57c70f",
+      "userId": "518686d0bc0c",
+      "date": "2026-10-24",
+      "meal": "dinner",
+      "at": "2026-10-24T13:30:00.000Z"
+    },
+    {
+      "id": "1f2787376ae8",
+      "userId": "518686d0bc0c",
+      "date": "2026-10-25",
+      "meal": "lunch",
+      "at": "2026-10-25T06:30:00.000Z"
+    },
+    {
+      "id": "2b58efdc7255",
+      "userId": "518686d0bc0c",
+      "date": "2026-10-26",
+      "meal": "breakfast",
+      "at": "2026-10-26T01:30:00.000Z"
+    },
+    {
+      "id": "59cb6d5c8a3d",
+      "userId": "518686d0bc0c",
+      "date": "2026-10-26",
+      "meal": "dinner",
+      "at": "2026-10-26T13:30:00.000Z"
+    },
+    {
+      "id": "24f652317088",
+      "userId": "518686d0bc0c",
+      "date": "2026-10-27",
+      "meal": "lunch",
+      "at": "2026-10-27T06:30:00.000Z"
+    },
+    {
+      "id": "00b3419f19f6",
+      "userId": "518686d0bc0c",
+      "date": "2026-10-27",
+      "meal": "snacks",
+      "at": "2026-10-27T11:30:00.000Z"
+    },
+    {
+      "id": "d924fa5dfefe",
+      "userId": "518686d0bc0c",
+      "date": "2026-10-27",
+      "meal": "dinner",
+      "at": "2026-10-27T13:30:00.000Z"
+    },
+    {
+      "id": "7fc97540384e",
+      "userId": "518686d0bc0c",
+      "date": "2026-10-28",
+      "meal": "breakfast",
+      "at": "2026-10-28T01:30:00.000Z"
+    },
+    {
+      "id": "59635b32f30d",
+      "userId": "518686d0bc0c",
+      "date": "2026-10-28",
+      "meal": "snacks",
+      "at": "2026-10-28T11:30:00.000Z"
+    },
+    {
+      "id": "9d3eacedaa37",
+      "userId": "518686d0bc0c",
+      "date": "2026-10-28",
+      "meal": "dinner",
+      "at": "2026-10-28T13:30:00.000Z"
+    },
+    {
+      "id": "854904a378f6",
+      "userId": "518686d0bc0c",
+      "date": "2026-10-29",
+      "meal": "breakfast",
+      "at": "2026-10-29T01:30:00.000Z"
+    },
+    {
+      "id": "0afd73c4b3ed",
+      "userId": "518686d0bc0c",
+      "date": "2026-10-29",
+      "meal": "lunch",
+      "at": "2026-10-29T06:30:00.000Z"
+    },
+    {
+      "id": "7ec23a9a78d5",
+      "userId": "518686d0bc0c",
+      "date": "2026-10-29",
+      "meal": "snacks",
+      "at": "2026-10-29T11:30:00.000Z"
+    },
+    {
+      "id": "998c9a2ae213",
+      "userId": "518686d0bc0c",
+      "date": "2026-10-30",
+      "meal": "breakfast",
+      "at": "2026-10-30T01:30:00.000Z"
+    },
+    {
+      "id": "c9416a92c347",
+      "userId": "518686d0bc0c",
+      "date": "2026-10-30",
+      "meal": "lunch",
+      "at": "2026-10-30T06:30:00.000Z"
+    },
+    {
+      "id": "9780cdebe709",
+      "userId": "518686d0bc0c",
+      "date": "2026-10-30",
+      "meal": "snacks",
+      "at": "2026-10-30T11:30:00.000Z"
+    },
+    {
+      "id": "e48e8d6bf67e",
+      "userId": "518686d0bc0c",
+      "date": "2026-10-30",
+      "meal": "dinner",
+      "at": "2026-10-30T13:30:00.000Z"
+    },
+    {
+      "id": "3d47fd13fc02",
+      "userId": "518686d0bc0c",
+      "date": "2026-10-31",
+      "meal": "lunch",
+      "at": "2026-10-31T06:30:00.000Z"
+    },
+    {
+      "id": "d8173a40d084",
+      "userId": "518686d0bc0c",
+      "date": "2026-10-31",
+      "meal": "snacks",
+      "at": "2026-10-31T11:30:00.000Z"
+    },
+    {
+      "id": "7c5b322dd48c",
+      "userId": "518686d0bc0c",
+      "date": "2026-11-01",
+      "meal": "breakfast",
+      "at": "2026-11-01T01:30:00.000Z"
+    },
+    {
+      "id": "33ba3a1ee4bd",
+      "userId": "518686d0bc0c",
+      "date": "2026-11-01",
+      "meal": "lunch",
+      "at": "2026-11-01T06:30:00.000Z"
+    },
+    {
+      "id": "f27e95d7b6ad",
+      "userId": "518686d0bc0c",
+      "date": "2026-11-01",
+      "meal": "dinner",
+      "at": "2026-11-01T13:30:00.000Z"
+    },
+    {
+      "id": "d44a15820139",
+      "userId": "518686d0bc0c",
+      "date": "2026-11-02",
+      "meal": "breakfast",
+      "at": "2026-11-02T01:30:00.000Z"
+    },
+    {
+      "id": "4d1acbd29e69",
+      "userId": "518686d0bc0c",
+      "date": "2026-11-02",
+      "meal": "lunch",
+      "at": "2026-11-02T06:30:00.000Z"
+    },
+    {
+      "id": "b48dec46ca7c",
+      "userId": "518686d0bc0c",
+      "date": "2026-11-02",
+      "meal": "snacks",
+      "at": "2026-11-02T11:30:00.000Z"
+    },
+    {
+      "id": "1a37bb5a0051",
+      "userId": "518686d0bc0c",
+      "date": "2026-11-02",
+      "meal": "dinner",
+      "at": "2026-11-02T13:30:00.000Z"
+    },
+    {
+      "id": "365e991b5815",
+      "userId": "818971a513ea",
+      "date": "2026-10-20",
+      "meal": "breakfast",
+      "at": "2026-10-20T01:30:00.000Z"
+    },
+    {
+      "id": "df4c26475c0f",
+      "userId": "818971a513ea",
+      "date": "2026-10-20",
+      "meal": "lunch",
+      "at": "2026-10-20T06:30:00.000Z"
+    },
+    {
+      "id": "fc9414d84155",
+      "userId": "818971a513ea",
+      "date": "2026-10-20",
+      "meal": "snacks",
+      "at": "2026-10-20T11:30:00.000Z"
+    },
+    {
+      "id": "030d3e413140",
+      "userId": "818971a513ea",
+      "date": "2026-10-20",
+      "meal": "dinner",
+      "at": "2026-10-20T13:30:00.000Z"
+    },
+    {
+      "id": "e11559be0173",
+      "userId": "818971a513ea",
+      "date": "2026-10-21",
+      "meal": "breakfast",
+      "at": "2026-10-21T01:30:00.000Z"
+    },
+    {
+      "id": "5d38a8bbc48e",
+      "userId": "818971a513ea",
+      "date": "2026-10-21",
+      "meal": "lunch",
+      "at": "2026-10-21T06:30:00.000Z"
+    },
+    {
+      "id": "5522bc2dd3fb",
+      "userId": "818971a513ea",
+      "date": "2026-10-22",
+      "meal": "lunch",
+      "at": "2026-10-22T06:30:00.000Z"
+    },
+    {
+      "id": "ab18ea5dd86e",
+      "userId": "818971a513ea",
+      "date": "2026-10-22",
+      "meal": "snacks",
+      "at": "2026-10-22T11:30:00.000Z"
+    },
+    {
+      "id": "c56dc8faac19",
+      "userId": "818971a513ea",
+      "date": "2026-10-22",
+      "meal": "dinner",
+      "at": "2026-10-22T13:30:00.000Z"
+    },
+    {
+      "id": "1e2c602c032f",
+      "userId": "818971a513ea",
+      "date": "2026-10-23",
+      "meal": "breakfast",
+      "at": "2026-10-23T01:30:00.000Z"
+    },
+    {
+      "id": "9d054163bba4",
+      "userId": "818971a513ea",
+      "date": "2026-10-23",
+      "meal": "lunch",
+      "at": "2026-10-23T06:30:00.000Z"
+    },
+    {
+      "id": "b458f796f3d6",
+      "userId": "818971a513ea",
+      "date": "2026-10-23",
+      "meal": "snacks",
+      "at": "2026-10-23T11:30:00.000Z"
+    },
+    {
+      "id": "718b67929ed8",
+      "userId": "818971a513ea",
+      "date": "2026-10-24",
+      "meal": "breakfast",
+      "at": "2026-10-24T01:30:00.000Z"
+    },
+    {
+      "id": "20991750494f",
+      "userId": "818971a513ea",
+      "date": "2026-10-24",
+      "meal": "lunch",
+      "at": "2026-10-24T06:30:00.000Z"
+    },
+    {
+      "id": "92bfbfa67609",
+      "userId": "818971a513ea",
+      "date": "2026-10-24",
+      "meal": "dinner",
+      "at": "2026-10-24T13:30:00.000Z"
+    },
+    {
+      "id": "8ebc4a748513",
+      "userId": "818971a513ea",
+      "date": "2026-10-25",
+      "meal": "breakfast",
+      "at": "2026-10-25T01:30:00.000Z"
+    },
+    {
+      "id": "c89a70b848fa",
+      "userId": "818971a513ea",
+      "date": "2026-10-25",
+      "meal": "lunch",
+      "at": "2026-10-25T06:30:00.000Z"
+    },
+    {
+      "id": "20ffd2913340",
+      "userId": "818971a513ea",
+      "date": "2026-10-25",
+      "meal": "dinner",
+      "at": "2026-10-25T13:30:00.000Z"
+    },
+    {
+      "id": "dc61987c490b",
+      "userId": "818971a513ea",
+      "date": "2026-10-26",
+      "meal": "dinner",
+      "at": "2026-10-26T13:30:00.000Z"
+    },
+    {
+      "id": "23bfd04f5c27",
+      "userId": "818971a513ea",
+      "date": "2026-10-27",
+      "meal": "breakfast",
+      "at": "2026-10-27T01:30:00.000Z"
+    },
+    {
+      "id": "a9de14826ed9",
+      "userId": "818971a513ea",
+      "date": "2026-10-27",
+      "meal": "snacks",
+      "at": "2026-10-27T11:30:00.000Z"
+    },
+    {
+      "id": "6074e5276d48",
+      "userId": "818971a513ea",
+      "date": "2026-10-27",
+      "meal": "dinner",
+      "at": "2026-10-27T13:30:00.000Z"
+    },
+    {
+      "id": "1331c12004db",
+      "userId": "818971a513ea",
+      "date": "2026-10-28",
+      "meal": "lunch",
+      "at": "2026-10-28T06:30:00.000Z"
+    },
+    {
+      "id": "c859f215ec13",
+      "userId": "818971a513ea",
+      "date": "2026-10-28",
+      "meal": "snacks",
+      "at": "2026-10-28T11:30:00.000Z"
+    },
+    {
+      "id": "bf8a7fa5a659",
+      "userId": "818971a513ea",
+      "date": "2026-10-28",
+      "meal": "dinner",
+      "at": "2026-10-28T13:30:00.000Z"
+    },
+    {
+      "id": "7b3a65834fea",
+      "userId": "818971a513ea",
+      "date": "2026-10-29",
+      "meal": "breakfast",
+      "at": "2026-10-29T01:30:00.000Z"
+    },
+    {
+      "id": "0930a8008319",
+      "userId": "818971a513ea",
+      "date": "2026-10-29",
+      "meal": "lunch",
+      "at": "2026-10-29T06:30:00.000Z"
+    },
+    {
+      "id": "2cec05afaffc",
+      "userId": "818971a513ea",
+      "date": "2026-10-30",
+      "meal": "breakfast",
+      "at": "2026-10-30T01:30:00.000Z"
+    },
+    {
+      "id": "fb003c67b704",
+      "userId": "818971a513ea",
+      "date": "2026-10-30",
+      "meal": "lunch",
+      "at": "2026-10-30T06:30:00.000Z"
+    },
+    {
+      "id": "7f7232bc89e7",
+      "userId": "818971a513ea",
+      "date": "2026-10-31",
+      "meal": "lunch",
+      "at": "2026-10-31T06:30:00.000Z"
+    },
+    {
+      "id": "6f39a075c9cd",
+      "userId": "818971a513ea",
+      "date": "2026-10-31",
+      "meal": "snacks",
+      "at": "2026-10-31T11:30:00.000Z"
+    },
+    {
+      "id": "52f83676e9a1",
+      "userId": "818971a513ea",
+      "date": "2026-10-31",
+      "meal": "dinner",
+      "at": "2026-10-31T13:30:00.000Z"
+    },
+    {
+      "id": "0768f82b9a1d",
+      "userId": "818971a513ea",
+      "date": "2026-11-01",
+      "meal": "breakfast",
+      "at": "2026-11-01T01:30:00.000Z"
+    },
+    {
+      "id": "8c405eb5420c",
+      "userId": "818971a513ea",
+      "date": "2026-11-01",
+      "meal": "lunch",
+      "at": "2026-11-01T06:30:00.000Z"
+    },
+    {
+      "id": "20a3022ca9f7",
+      "userId": "818971a513ea",
+      "date": "2026-11-02",
+      "meal": "breakfast",
+      "at": "2026-11-02T01:30:00.000Z"
+    },
+    {
+      "id": "650af2b2211c",
+      "userId": "818971a513ea",
+      "date": "2026-11-02",
+      "meal": "lunch",
+      "at": "2026-11-02T06:30:00.000Z"
+    },
+    {
+      "id": "0f5324effa7b",
+      "userId": "818971a513ea",
+      "date": "2026-11-02",
+      "meal": "snacks",
+      "at": "2026-11-02T11:30:00.000Z"
+    },
+    {
+      "id": "21a4f9698e26",
+      "userId": "818971a513ea",
+      "date": "2026-11-02",
+      "meal": "dinner",
+      "at": "2026-11-02T13:30:00.000Z"
+    },
+    {
+      "id": "9033ff86d62f",
+      "userId": "ed4b51c427aa",
+      "date": "2026-10-20",
+      "meal": "breakfast",
+      "at": "2026-10-20T01:30:00.000Z"
+    },
+    {
+      "id": "cfb4ef7d9441",
+      "userId": "ed4b51c427aa",
+      "date": "2026-10-21",
+      "meal": "snacks",
+      "at": "2026-10-21T11:30:00.000Z"
+    },
+    {
+      "id": "f83a49d42982",
+      "userId": "ed4b51c427aa",
+      "date": "2026-10-21",
+      "meal": "dinner",
+      "at": "2026-10-21T13:30:00.000Z"
+    },
+    {
+      "id": "1ff621a98610",
+      "userId": "ed4b51c427aa",
+      "date": "2026-10-22",
+      "meal": "breakfast",
+      "at": "2026-10-22T01:30:00.000Z"
+    },
+    {
+      "id": "5f05f777ef68",
+      "userId": "ed4b51c427aa",
+      "date": "2026-10-22",
+      "meal": "lunch",
+      "at": "2026-10-22T06:30:00.000Z"
+    },
+    {
+      "id": "a8a0cb4017c6",
+      "userId": "ed4b51c427aa",
+      "date": "2026-10-23",
+      "meal": "breakfast",
+      "at": "2026-10-23T01:30:00.000Z"
+    },
+    {
+      "id": "43a294bc14bc",
+      "userId": "ed4b51c427aa",
+      "date": "2026-10-23",
+      "meal": "lunch",
+      "at": "2026-10-23T06:30:00.000Z"
+    },
+    {
+      "id": "f0b2f003ee5b",
+      "userId": "ed4b51c427aa",
+      "date": "2026-10-23",
+      "meal": "snacks",
+      "at": "2026-10-23T11:30:00.000Z"
+    },
+    {
+      "id": "61453d3d41be",
+      "userId": "ed4b51c427aa",
+      "date": "2026-10-23",
+      "meal": "dinner",
+      "at": "2026-10-23T13:30:00.000Z"
+    },
+    {
+      "id": "99d6df95f5f0",
+      "userId": "ed4b51c427aa",
+      "date": "2026-10-24",
+      "meal": "breakfast",
+      "at": "2026-10-24T01:30:00.000Z"
+    },
+    {
+      "id": "71838e53289a",
+      "userId": "ed4b51c427aa",
+      "date": "2026-10-24",
+      "meal": "lunch",
+      "at": "2026-10-24T06:30:00.000Z"
+    },
+    {
+      "id": "d3720e03eb38",
+      "userId": "ed4b51c427aa",
+      "date": "2026-10-24",
+      "meal": "snacks",
+      "at": "2026-10-24T11:30:00.000Z"
+    },
+    {
+      "id": "585efb106f5a",
+      "userId": "ed4b51c427aa",
+      "date": "2026-10-25",
+      "meal": "breakfast",
+      "at": "2026-10-25T01:30:00.000Z"
+    },
+    {
+      "id": "339f68ed7a22",
+      "userId": "ed4b51c427aa",
+      "date": "2026-10-25",
+      "meal": "lunch",
+      "at": "2026-10-25T06:30:00.000Z"
+    },
+    {
+      "id": "d27be3caf65b",
+      "userId": "ed4b51c427aa",
+      "date": "2026-10-25",
+      "meal": "snacks",
+      "at": "2026-10-25T11:30:00.000Z"
+    },
+    {
+      "id": "7edfde4e4ba4",
+      "userId": "ed4b51c427aa",
+      "date": "2026-10-25",
+      "meal": "dinner",
+      "at": "2026-10-25T13:30:00.000Z"
+    },
+    {
+      "id": "c2532246d206",
+      "userId": "ed4b51c427aa",
+      "date": "2026-10-26",
+      "meal": "lunch",
+      "at": "2026-10-26T06:30:00.000Z"
+    },
+    {
+      "id": "60c8b2940a46",
+      "userId": "ed4b51c427aa",
+      "date": "2026-10-26",
+      "meal": "snacks",
+      "at": "2026-10-26T11:30:00.000Z"
+    },
+    {
+      "id": "75d4a49e8146",
+      "userId": "ed4b51c427aa",
+      "date": "2026-10-26",
+      "meal": "dinner",
+      "at": "2026-10-26T13:30:00.000Z"
+    },
+    {
+      "id": "7737158250ba",
+      "userId": "ed4b51c427aa",
+      "date": "2026-10-27",
+      "meal": "lunch",
+      "at": "2026-10-27T06:30:00.000Z"
+    },
+    {
+      "id": "d5acdede0510",
+      "userId": "ed4b51c427aa",
+      "date": "2026-10-28",
+      "meal": "lunch",
+      "at": "2026-10-28T06:30:00.000Z"
+    },
+    {
+      "id": "95d2c59b7ab7",
+      "userId": "ed4b51c427aa",
+      "date": "2026-10-28",
+      "meal": "snacks",
+      "at": "2026-10-28T11:30:00.000Z"
+    },
+    {
+      "id": "52542a280775",
+      "userId": "ed4b51c427aa",
+      "date": "2026-10-29",
+      "meal": "snacks",
+      "at": "2026-10-29T11:30:00.000Z"
+    },
+    {
+      "id": "40bcf1b7f4c0",
+      "userId": "ed4b51c427aa",
+      "date": "2026-10-29",
+      "meal": "dinner",
+      "at": "2026-10-29T13:30:00.000Z"
+    },
+    {
+      "id": "d76cf6900b4d",
+      "userId": "ed4b51c427aa",
+      "date": "2026-10-30",
+      "meal": "breakfast",
+      "at": "2026-10-30T01:30:00.000Z"
+    },
+    {
+      "id": "87a5faa8a4ad",
+      "userId": "ed4b51c427aa",
+      "date": "2026-10-30",
+      "meal": "lunch",
+      "at": "2026-10-30T06:30:00.000Z"
+    },
+    {
+      "id": "1e050259f25e",
+      "userId": "ed4b51c427aa",
+      "date": "2026-10-30",
+      "meal": "snacks",
+      "at": "2026-10-30T11:30:00.000Z"
+    },
+    {
+      "id": "f73bc053aa38",
+      "userId": "ed4b51c427aa",
+      "date": "2026-10-30",
+      "meal": "dinner",
+      "at": "2026-10-30T13:30:00.000Z"
+    },
+    {
+      "id": "5054571de867",
+      "userId": "ed4b51c427aa",
+      "date": "2026-10-31",
+      "meal": "lunch",
+      "at": "2026-10-31T06:30:00.000Z"
+    },
+    {
+      "id": "f1908ae65a9e",
+      "userId": "ed4b51c427aa",
+      "date": "2026-10-31",
+      "meal": "snacks",
+      "at": "2026-10-31T11:30:00.000Z"
+    },
+    {
+      "id": "f4da4364b046",
+      "userId": "ed4b51c427aa",
+      "date": "2026-11-01",
+      "meal": "breakfast",
+      "at": "2026-11-01T01:30:00.000Z"
+    },
+    {
+      "id": "a3474bdecc8e",
+      "userId": "ed4b51c427aa",
+      "date": "2026-11-01",
+      "meal": "snacks",
+      "at": "2026-11-01T11:30:00.000Z"
+    },
+    {
+      "id": "673bcbf22810",
+      "userId": "ed4b51c427aa",
+      "date": "2026-11-01",
+      "meal": "dinner",
+      "at": "2026-11-01T13:30:00.000Z"
+    },
+    {
+      "id": "b20e4c632185",
+      "userId": "ed4b51c427aa",
+      "date": "2026-11-02",
+      "meal": "lunch",
+      "at": "2026-11-02T06:30:00.000Z"
+    },
+    {
+      "id": "6989ffe9b34d",
+      "userId": "ed4b51c427aa",
+      "date": "2026-11-02",
+      "meal": "snacks",
+      "at": "2026-11-02T11:30:00.000Z"
+    },
+    {
+      "id": "b305792efdaf",
+      "userId": "ed4b51c427aa",
+      "date": "2026-11-02",
+      "meal": "dinner",
+      "at": "2026-11-02T13:30:00.000Z"
+    },
+    {
+      "id": "0af43bdf8ccc",
+      "userId": "bc14f2a6336e",
+      "date": "2026-10-21",
+      "meal": "lunch",
+      "at": "2026-10-21T06:30:00.000Z"
+    },
+    {
+      "id": "8a61a0a43dfb",
+      "userId": "bc14f2a6336e",
+      "date": "2026-10-22",
+      "meal": "snacks",
+      "at": "2026-10-22T11:30:00.000Z"
+    },
+    {
+      "id": "c234ac94e565",
+      "userId": "bc14f2a6336e",
+      "date": "2026-10-22",
+      "meal": "dinner",
+      "at": "2026-10-22T13:30:00.000Z"
+    },
+    {
+      "id": "d50e9176ef41",
+      "userId": "bc14f2a6336e",
+      "date": "2026-10-23",
+      "meal": "breakfast",
+      "at": "2026-10-23T01:30:00.000Z"
+    },
+    {
+      "id": "18a88feede3f",
+      "userId": "bc14f2a6336e",
+      "date": "2026-10-23",
+      "meal": "lunch",
+      "at": "2026-10-23T06:30:00.000Z"
+    },
+    {
+      "id": "f812872e2560",
+      "userId": "bc14f2a6336e",
+      "date": "2026-10-23",
+      "meal": "snacks",
+      "at": "2026-10-23T11:30:00.000Z"
+    },
+    {
+      "id": "30827b0505e3",
+      "userId": "bc14f2a6336e",
+      "date": "2026-10-24",
+      "meal": "breakfast",
+      "at": "2026-10-24T01:30:00.000Z"
+    },
+    {
+      "id": "7bb03e3ae54a",
+      "userId": "bc14f2a6336e",
+      "date": "2026-10-25",
+      "meal": "lunch",
+      "at": "2026-10-25T06:30:00.000Z"
+    },
+    {
+      "id": "d387a637e12e",
+      "userId": "bc14f2a6336e",
+      "date": "2026-10-25",
+      "meal": "dinner",
+      "at": "2026-10-25T13:30:00.000Z"
+    },
+    {
+      "id": "1143b15261b8",
+      "userId": "bc14f2a6336e",
+      "date": "2026-10-26",
+      "meal": "lunch",
+      "at": "2026-10-26T06:30:00.000Z"
+    },
+    {
+      "id": "b9f9f6c934b9",
+      "userId": "bc14f2a6336e",
+      "date": "2026-10-26",
+      "meal": "snacks",
+      "at": "2026-10-26T11:30:00.000Z"
+    },
+    {
+      "id": "706a03ea5d83",
+      "userId": "bc14f2a6336e",
+      "date": "2026-10-27",
+      "meal": "lunch",
+      "at": "2026-10-27T06:30:00.000Z"
+    },
+    {
+      "id": "9af199f779e1",
+      "userId": "bc14f2a6336e",
+      "date": "2026-10-27",
+      "meal": "snacks",
+      "at": "2026-10-27T11:30:00.000Z"
+    },
+    {
+      "id": "54248e4a9786",
+      "userId": "bc14f2a6336e",
+      "date": "2026-10-27",
+      "meal": "dinner",
+      "at": "2026-10-27T13:30:00.000Z"
+    },
+    {
+      "id": "3d100022b5b6",
+      "userId": "bc14f2a6336e",
+      "date": "2026-10-28",
+      "meal": "breakfast",
+      "at": "2026-10-28T01:30:00.000Z"
+    },
+    {
+      "id": "358d978af50a",
+      "userId": "bc14f2a6336e",
+      "date": "2026-10-28",
+      "meal": "dinner",
+      "at": "2026-10-28T13:30:00.000Z"
+    },
+    {
+      "id": "4a824f8d6fea",
+      "userId": "bc14f2a6336e",
+      "date": "2026-10-29",
+      "meal": "dinner",
+      "at": "2026-10-29T13:30:00.000Z"
+    },
+    {
+      "id": "a65da6c546f5",
+      "userId": "bc14f2a6336e",
+      "date": "2026-10-30",
+      "meal": "breakfast",
+      "at": "2026-10-30T01:30:00.000Z"
+    },
+    {
+      "id": "c543bee1795e",
+      "userId": "bc14f2a6336e",
+      "date": "2026-10-30",
+      "meal": "lunch",
+      "at": "2026-10-30T06:30:00.000Z"
+    },
+    {
+      "id": "f35d938b5327",
+      "userId": "bc14f2a6336e",
+      "date": "2026-10-30",
+      "meal": "snacks",
+      "at": "2026-10-30T11:30:00.000Z"
+    },
+    {
+      "id": "961a6c284afa",
+      "userId": "bc14f2a6336e",
+      "date": "2026-10-31",
+      "meal": "breakfast",
+      "at": "2026-10-31T01:30:00.000Z"
+    },
+    {
+      "id": "97ade4e472b6",
+      "userId": "bc14f2a6336e",
+      "date": "2026-10-31",
+      "meal": "lunch",
+      "at": "2026-10-31T06:30:00.000Z"
+    },
+    {
+      "id": "4ba61cb5add0",
+      "userId": "bc14f2a6336e",
+      "date": "2026-10-31",
+      "meal": "dinner",
+      "at": "2026-10-31T13:30:00.000Z"
+    },
+    {
+      "id": "d2929756f066",
+      "userId": "bc14f2a6336e",
+      "date": "2026-11-01",
+      "meal": "snacks",
+      "at": "2026-11-01T11:30:00.000Z"
+    },
+    {
+      "id": "38f9c2adde12",
+      "userId": "f2829836c109",
+      "date": "2026-10-21",
+      "meal": "dinner",
+      "at": "2026-10-21T13:30:00.000Z"
+    },
+    {
+      "id": "b814aef90e11",
+      "userId": "f2829836c109",
+      "date": "2026-10-22",
+      "meal": "lunch",
+      "at": "2026-10-22T06:30:00.000Z"
+    },
+    {
+      "id": "0513b1e433cc",
+      "userId": "f2829836c109",
+      "date": "2026-10-22",
+      "meal": "snacks",
+      "at": "2026-10-22T11:30:00.000Z"
+    },
+    {
+      "id": "9272d1d4bc39",
+      "userId": "f2829836c109",
+      "date": "2026-10-22",
+      "meal": "dinner",
+      "at": "2026-10-22T13:30:00.000Z"
+    },
+    {
+      "id": "d13521b590d5",
+      "userId": "f2829836c109",
+      "date": "2026-10-24",
+      "meal": "breakfast",
+      "at": "2026-10-24T01:30:00.000Z"
+    },
+    {
+      "id": "f4c3c93824bb",
+      "userId": "f2829836c109",
+      "date": "2026-10-25",
+      "meal": "breakfast",
+      "at": "2026-10-25T01:30:00.000Z"
+    },
+    {
+      "id": "7a0a8942e0f8",
+      "userId": "f2829836c109",
+      "date": "2026-10-25",
+      "meal": "lunch",
+      "at": "2026-10-25T06:30:00.000Z"
+    },
+    {
+      "id": "66fde4d8ad17",
+      "userId": "f2829836c109",
+      "date": "2026-10-26",
+      "meal": "dinner",
+      "at": "2026-10-26T13:30:00.000Z"
+    },
+    {
+      "id": "ef9aac8d57a6",
+      "userId": "f2829836c109",
+      "date": "2026-10-27",
+      "meal": "breakfast",
+      "at": "2026-10-27T01:30:00.000Z"
+    },
+    {
+      "id": "8a74ed0863c8",
+      "userId": "f2829836c109",
+      "date": "2026-10-27",
+      "meal": "lunch",
+      "at": "2026-10-27T06:30:00.000Z"
+    },
+    {
+      "id": "51d70206c4c7",
+      "userId": "f2829836c109",
+      "date": "2026-10-27",
+      "meal": "snacks",
+      "at": "2026-10-27T11:30:00.000Z"
+    },
+    {
+      "id": "a0488bb9d6d0",
+      "userId": "f2829836c109",
+      "date": "2026-10-27",
+      "meal": "dinner",
+      "at": "2026-10-27T13:30:00.000Z"
+    },
+    {
+      "id": "65d0bcd7293d",
+      "userId": "f2829836c109",
+      "date": "2026-10-28",
+      "meal": "breakfast",
+      "at": "2026-10-28T01:30:00.000Z"
+    },
+    {
+      "id": "591db65c9328",
+      "userId": "f2829836c109",
+      "date": "2026-10-29",
+      "meal": "lunch",
+      "at": "2026-10-29T06:30:00.000Z"
+    },
+    {
+      "id": "a0af53f1e731",
+      "userId": "f2829836c109",
+      "date": "2026-10-29",
+      "meal": "snacks",
+      "at": "2026-10-29T11:30:00.000Z"
+    },
+    {
+      "id": "1f24aa6204b6",
+      "userId": "f2829836c109",
+      "date": "2026-10-29",
+      "meal": "dinner",
+      "at": "2026-10-29T13:30:00.000Z"
+    },
+    {
+      "id": "b81d90d52583",
+      "userId": "f2829836c109",
+      "date": "2026-10-30",
+      "meal": "snacks",
+      "at": "2026-10-30T11:30:00.000Z"
+    },
+    {
+      "id": "7377bf1395c3",
+      "userId": "f2829836c109",
+      "date": "2026-10-31",
+      "meal": "lunch",
+      "at": "2026-10-31T06:30:00.000Z"
+    },
+    {
+      "id": "eeb3e8a834e5",
+      "userId": "f2829836c109",
+      "date": "2026-10-31",
+      "meal": "dinner",
+      "at": "2026-10-31T13:30:00.000Z"
+    },
+    {
+      "id": "c4ae5bbbdd08",
+      "userId": "f2829836c109",
+      "date": "2026-11-01",
+      "meal": "dinner",
+      "at": "2026-11-01T13:30:00.000Z"
+    },
+    {
+      "id": "5d8756e25b5f",
+      "userId": "f2829836c109",
+      "date": "2026-11-02",
+      "meal": "breakfast",
+      "at": "2026-11-02T01:30:00.000Z"
+    },
+    {
+      "id": "18756ef4c80f",
+      "userId": "f2829836c109",
+      "date": "2026-11-02",
+      "meal": "lunch",
+      "at": "2026-11-02T06:30:00.000Z"
+    },
+    {
+      "id": "9f625b4b63ff",
+      "userId": "f2829836c109",
+      "date": "2026-11-02",
+      "meal": "dinner",
+      "at": "2026-11-02T13:30:00.000Z"
+    },
+    {
+      "id": "b6f669d365aa",
+      "userId": "3cb404660451",
+      "date": "2026-10-20",
+      "meal": "breakfast",
+      "at": "2026-10-20T01:30:00.000Z"
+    },
+    {
+      "id": "a117fe9de84e",
+      "userId": "3cb404660451",
+      "date": "2026-10-20",
+      "meal": "snacks",
+      "at": "2026-10-20T11:30:00.000Z"
+    },
+    {
+      "id": "eba3ca4e491d",
+      "userId": "3cb404660451",
+      "date": "2026-10-20",
+      "meal": "dinner",
+      "at": "2026-10-20T13:30:00.000Z"
+    },
+    {
+      "id": "82b093c305c0",
+      "userId": "3cb404660451",
+      "date": "2026-10-21",
+      "meal": "breakfast",
+      "at": "2026-10-21T01:30:00.000Z"
+    },
+    {
+      "id": "9f69a6c0bdc8",
+      "userId": "3cb404660451",
+      "date": "2026-10-21",
+      "meal": "dinner",
+      "at": "2026-10-21T13:30:00.000Z"
+    },
+    {
+      "id": "6352d0e49208",
+      "userId": "3cb404660451",
+      "date": "2026-10-22",
+      "meal": "lunch",
+      "at": "2026-10-22T06:30:00.000Z"
+    },
+    {
+      "id": "de815b1c4371",
+      "userId": "3cb404660451",
+      "date": "2026-10-22",
+      "meal": "snacks",
+      "at": "2026-10-22T11:30:00.000Z"
+    },
+    {
+      "id": "d5875c55e1c7",
+      "userId": "3cb404660451",
+      "date": "2026-10-23",
+      "meal": "breakfast",
+      "at": "2026-10-23T01:30:00.000Z"
+    },
+    {
+      "id": "4177ed1308c4",
+      "userId": "3cb404660451",
+      "date": "2026-10-23",
+      "meal": "snacks",
+      "at": "2026-10-23T11:30:00.000Z"
+    },
+    {
+      "id": "ff40de7b6822",
+      "userId": "3cb404660451",
+      "date": "2026-10-23",
+      "meal": "dinner",
+      "at": "2026-10-23T13:30:00.000Z"
+    },
+    {
+      "id": "3d2b9d618e63",
+      "userId": "3cb404660451",
+      "date": "2026-10-24",
+      "meal": "breakfast",
+      "at": "2026-10-24T01:30:00.000Z"
+    },
+    {
+      "id": "bcdb127eace0",
+      "userId": "3cb404660451",
+      "date": "2026-10-24",
+      "meal": "lunch",
+      "at": "2026-10-24T06:30:00.000Z"
+    },
+    {
+      "id": "2b087fbc3a6a",
+      "userId": "3cb404660451",
+      "date": "2026-10-25",
+      "meal": "lunch",
+      "at": "2026-10-25T06:30:00.000Z"
+    },
+    {
+      "id": "25807936798f",
+      "userId": "3cb404660451",
+      "date": "2026-10-25",
+      "meal": "snacks",
+      "at": "2026-10-25T11:30:00.000Z"
+    },
+    {
+      "id": "296c139e47a5",
+      "userId": "3cb404660451",
+      "date": "2026-10-26",
+      "meal": "lunch",
+      "at": "2026-10-26T06:30:00.000Z"
+    },
+    {
+      "id": "bbb865b5dde5",
+      "userId": "3cb404660451",
+      "date": "2026-10-27",
+      "meal": "breakfast",
+      "at": "2026-10-27T01:30:00.000Z"
+    },
+    {
+      "id": "ae14be0289a3",
+      "userId": "3cb404660451",
+      "date": "2026-10-27",
+      "meal": "lunch",
+      "at": "2026-10-27T06:30:00.000Z"
+    },
+    {
+      "id": "525c1ad23c9a",
+      "userId": "3cb404660451",
+      "date": "2026-10-27",
+      "meal": "snacks",
+      "at": "2026-10-27T11:30:00.000Z"
+    },
+    {
+      "id": "cf3eb0fafc52",
+      "userId": "3cb404660451",
+      "date": "2026-10-27",
+      "meal": "dinner",
+      "at": "2026-10-27T13:30:00.000Z"
+    },
+    {
+      "id": "0087cbddabf1",
+      "userId": "3cb404660451",
+      "date": "2026-10-28",
+      "meal": "breakfast",
+      "at": "2026-10-28T01:30:00.000Z"
+    },
+    {
+      "id": "4a87724e37c9",
+      "userId": "3cb404660451",
+      "date": "2026-10-28",
+      "meal": "lunch",
+      "at": "2026-10-28T06:30:00.000Z"
+    },
+    {
+      "id": "820754be0320",
+      "userId": "3cb404660451",
+      "date": "2026-10-28",
+      "meal": "snacks",
+      "at": "2026-10-28T11:30:00.000Z"
+    },
+    {
+      "id": "000da23b9d80",
+      "userId": "3cb404660451",
+      "date": "2026-10-29",
+      "meal": "breakfast",
+      "at": "2026-10-29T01:30:00.000Z"
+    },
+    {
+      "id": "c5d105a892bf",
+      "userId": "3cb404660451",
+      "date": "2026-10-29",
+      "meal": "lunch",
+      "at": "2026-10-29T06:30:00.000Z"
+    },
+    {
+      "id": "88d824d45e24",
+      "userId": "3cb404660451",
+      "date": "2026-10-29",
+      "meal": "snacks",
+      "at": "2026-10-29T11:30:00.000Z"
+    },
+    {
+      "id": "405838f17877",
+      "userId": "3cb404660451",
+      "date": "2026-10-29",
+      "meal": "dinner",
+      "at": "2026-10-29T13:30:00.000Z"
+    },
+    {
+      "id": "3a1cc4b04a0e",
+      "userId": "3cb404660451",
+      "date": "2026-10-30",
+      "meal": "snacks",
+      "at": "2026-10-30T11:30:00.000Z"
+    },
+    {
+      "id": "e3065820d305",
+      "userId": "3cb404660451",
+      "date": "2026-10-30",
+      "meal": "dinner",
+      "at": "2026-10-30T13:30:00.000Z"
+    },
+    {
+      "id": "cc93331b9de1",
+      "userId": "3cb404660451",
+      "date": "2026-10-31",
+      "meal": "breakfast",
+      "at": "2026-10-31T01:30:00.000Z"
+    },
+    {
+      "id": "85dd8c47de1e",
+      "userId": "3cb404660451",
+      "date": "2026-11-02",
+      "meal": "breakfast",
+      "at": "2026-11-02T01:30:00.000Z"
+    },
+    {
+      "id": "b18735ad2662",
+      "userId": "3cb404660451",
+      "date": "2026-11-02",
+      "meal": "snacks",
+      "at": "2026-11-02T11:30:00.000Z"
+    }
+  ],
+  "optouts": [],
+  "ratings": [
+    {
+      "id": "56002fe81884",
+      "userId": "4c62644348f1",
+      "date": "2026-10-23",
+      "meal": "breakfast",
+      "stars": 3,
+      "vibe": "😐",
+      "comment": "",
+      "at": "2026-10-23T01:30:00.000Z"
+    },
+    {
+      "id": "48847cae15a2",
+      "userId": "4c62644348f1",
+      "date": "2026-10-26",
+      "meal": "breakfast",
+      "stars": 4,
+      "vibe": "😋",
+      "comment": "",
+      "at": "2026-10-26T01:30:00.000Z"
+    },
+    {
+      "id": "bec74cace403",
+      "userId": "4c62644348f1",
+      "date": "2026-10-28",
+      "meal": "lunch",
+      "stars": 3,
+      "vibe": "😐",
+      "comment": "",
+      "at": "2026-10-28T06:30:00.000Z"
+    },
+    {
+      "id": "4b4e9ab366e4",
+      "userId": "4c62644348f1",
+      "date": "2026-10-29",
+      "meal": "lunch",
+      "stars": 4,
+      "vibe": "😋",
+      "comment": "",
+      "at": "2026-10-29T06:30:00.000Z"
+    },
+    {
+      "id": "0a024d4a242e",
+      "userId": "4c62644348f1",
+      "date": "2026-10-29",
+      "meal": "snacks",
+      "stars": 4,
+      "vibe": "😋",
+      "comment": "",
+      "at": "2026-10-29T11:30:00.000Z"
+    },
+    {
+      "id": "2b2f4c1171a5",
+      "userId": "4c62644348f1",
+      "date": "2026-10-31",
+      "meal": "breakfast",
+      "stars": 2,
+      "vibe": "🤢",
+      "comment": "",
+      "at": "2026-10-31T01:30:00.000Z"
+    },
+    {
+      "id": "720c636f1dbc",
+      "userId": "4c62644348f1",
+      "date": "2026-11-01",
+      "meal": "snacks",
+      "stars": 3,
+      "vibe": "😐",
+      "comment": "",
+      "at": "2026-11-01T11:30:00.000Z"
+    },
+    {
+      "id": "043a49630d4b",
+      "userId": "4c62644348f1",
+      "date": "2026-11-01",
+      "meal": "dinner",
+      "stars": 4,
+      "vibe": "😋",
+      "comment": "",
+      "at": "2026-11-01T13:30:00.000Z"
+    },
+    {
+      "id": "6ef98f0cc154",
+      "userId": "518686d0bc0c",
+      "date": "2026-10-22",
+      "meal": "breakfast",
+      "stars": 4,
+      "vibe": "😋",
+      "comment": "",
+      "at": "2026-10-22T01:30:00.000Z"
+    },
+    {
+      "id": "0597b2f0af37",
+      "userId": "518686d0bc0c",
+      "date": "2026-10-23",
+      "meal": "snacks",
+      "stars": 5,
+      "vibe": "🔥",
+      "comment": "",
+      "at": "2026-10-23T11:30:00.000Z"
+    },
+    {
+      "id": "486308ed66de",
+      "userId": "518686d0bc0c",
+      "date": "2026-10-23",
+      "meal": "dinner",
+      "stars": 2,
+      "vibe": "🤢",
+      "comment": "",
+      "at": "2026-10-23T13:30:00.000Z"
+    },
+    {
+      "id": "b11be2e94229",
+      "userId": "518686d0bc0c",
+      "date": "2026-10-24",
+      "meal": "lunch",
+      "stars": 5,
+      "vibe": "🔥",
+      "comment": "",
+      "at": "2026-10-24T06:30:00.000Z"
+    },
+    {
+      "id": "270ac1c59e3c",
+      "userId": "518686d0bc0c",
+      "date": "2026-10-26",
+      "meal": "breakfast",
+      "stars": 3,
+      "vibe": "😐",
+      "comment": "",
+      "at": "2026-10-26T01:30:00.000Z"
+    },
+    {
+      "id": "7c55aea04e7f",
+      "userId": "518686d0bc0c",
+      "date": "2026-10-26",
+      "meal": "dinner",
+      "stars": 3,
+      "vibe": "😐",
+      "comment": "",
+      "at": "2026-10-26T13:30:00.000Z"
+    },
+    {
+      "id": "a68393fac93c",
+      "userId": "518686d0bc0c",
+      "date": "2026-10-27",
+      "meal": "lunch",
+      "stars": 2,
+      "vibe": "🤢",
+      "comment": "",
+      "at": "2026-10-27T06:30:00.000Z"
+    },
+    {
+      "id": "e79336c3b6d0",
+      "userId": "518686d0bc0c",
+      "date": "2026-10-27",
+      "meal": "snacks",
+      "stars": 3,
+      "vibe": "😐",
+      "comment": "",
+      "at": "2026-10-27T11:30:00.000Z"
+    },
+    {
+      "id": "fbf76957d566",
+      "userId": "518686d0bc0c",
+      "date": "2026-10-28",
+      "meal": "dinner",
+      "stars": 4,
+      "vibe": "😋",
+      "comment": "",
+      "at": "2026-10-28T13:30:00.000Z"
+    },
+    {
+      "id": "7fc0a01a5f4c",
+      "userId": "518686d0bc0c",
+      "date": "2026-10-31",
+      "meal": "lunch",
+      "stars": 4,
+      "vibe": "😋",
+      "comment": "",
+      "at": "2026-10-31T06:30:00.000Z"
+    },
+    {
+      "id": "cf70f9a8b4d7",
+      "userId": "518686d0bc0c",
+      "date": "2026-11-01",
+      "meal": "dinner",
+      "stars": 5,
+      "vibe": "🔥",
+      "comment": "",
+      "at": "2026-11-01T13:30:00.000Z"
+    },
+    {
+      "id": "abf017b211eb",
+      "userId": "518686d0bc0c",
+      "date": "2026-11-02",
+      "meal": "lunch",
+      "stars": 3,
+      "vibe": "😐",
+      "comment": "",
+      "at": "2026-11-02T06:30:00.000Z"
+    },
+    {
+      "id": "86bc9a672541",
+      "userId": "518686d0bc0c",
+      "date": "2026-11-02",
+      "meal": "snacks",
+      "stars": 4,
+      "vibe": "😋",
+      "comment": "",
+      "at": "2026-11-02T11:30:00.000Z"
+    },
+    {
+      "id": "44b430216e1b",
+      "userId": "818971a513ea",
+      "date": "2026-10-22",
+      "meal": "lunch",
+      "stars": 3,
+      "vibe": "😐",
+      "comment": "",
+      "at": "2026-10-22T06:30:00.000Z"
+    },
+    {
+      "id": "546b24b7ba70",
+      "userId": "818971a513ea",
+      "date": "2026-10-22",
+      "meal": "snacks",
+      "stars": 2,
+      "vibe": "🤢",
+      "comment": "",
+      "at": "2026-10-22T11:30:00.000Z"
+    },
+    {
+      "id": "034000273b66",
+      "userId": "818971a513ea",
+      "date": "2026-10-31",
+      "meal": "dinner",
+      "stars": 2,
+      "vibe": "🤢",
+      "comment": "",
+      "at": "2026-10-31T13:30:00.000Z"
+    },
+    {
+      "id": "07eb9b97d6ee",
+      "userId": "818971a513ea",
+      "date": "2026-11-02",
+      "meal": "breakfast",
+      "stars": 4,
+      "vibe": "😋",
+      "comment": "",
+      "at": "2026-11-02T01:30:00.000Z"
+    },
+    {
+      "id": "01378216a9a1",
+      "userId": "818971a513ea",
+      "date": "2026-11-02",
+      "meal": "dinner",
+      "stars": 5,
+      "vibe": "🔥",
+      "comment": "",
+      "at": "2026-11-02T13:30:00.000Z"
+    },
+    {
+      "id": "2f7fb9f6883f",
+      "userId": "ed4b51c427aa",
+      "date": "2026-10-20",
+      "meal": "breakfast",
+      "stars": 4,
+      "vibe": "😋",
+      "comment": "",
+      "at": "2026-10-20T01:30:00.000Z"
+    },
+    {
+      "id": "d516d7484ee8",
+      "userId": "ed4b51c427aa",
+      "date": "2026-10-22",
+      "meal": "breakfast",
+      "stars": 4,
+      "vibe": "😋",
+      "comment": "",
+      "at": "2026-10-22T01:30:00.000Z"
+    },
+    {
+      "id": "91649a8a2d10",
+      "userId": "ed4b51c427aa",
+      "date": "2026-10-25",
+      "meal": "lunch",
+      "stars": 3,
+      "vibe": "😐",
+      "comment": "",
+      "at": "2026-10-25T06:30:00.000Z"
+    },
+    {
+      "id": "166dddb19c4b",
+      "userId": "ed4b51c427aa",
+      "date": "2026-10-25",
+      "meal": "dinner",
+      "stars": 4,
+      "vibe": "😋",
+      "comment": "",
+      "at": "2026-10-25T13:30:00.000Z"
+    },
+    {
+      "id": "b4fdd563bc68",
+      "userId": "ed4b51c427aa",
+      "date": "2026-10-26",
+      "meal": "dinner",
+      "stars": 5,
+      "vibe": "🔥",
+      "comment": "",
+      "at": "2026-10-26T13:30:00.000Z"
+    },
+    {
+      "id": "2ec3a6badf92",
+      "userId": "ed4b51c427aa",
+      "date": "2026-10-29",
+      "meal": "dinner",
+      "stars": 5,
+      "vibe": "🔥",
+      "comment": "",
+      "at": "2026-10-29T13:30:00.000Z"
+    },
+    {
+      "id": "c7d9a7529c15",
+      "userId": "ed4b51c427aa",
+      "date": "2026-10-30",
+      "meal": "lunch",
+      "stars": 4,
+      "vibe": "😋",
+      "comment": "",
+      "at": "2026-10-30T06:30:00.000Z"
+    },
+    {
+      "id": "5aaa84b24ef2",
+      "userId": "ed4b51c427aa",
+      "date": "2026-10-30",
+      "meal": "snacks",
+      "stars": 3,
+      "vibe": "😐",
+      "comment": "",
+      "at": "2026-10-30T11:30:00.000Z"
+    },
+    {
+      "id": "335e309ced38",
+      "userId": "ed4b51c427aa",
+      "date": "2026-10-31",
+      "meal": "snacks",
+      "stars": 2,
+      "vibe": "🤢",
+      "comment": "",
+      "at": "2026-10-31T11:30:00.000Z"
+    },
+    {
+      "id": "34b580524b59",
+      "userId": "ed4b51c427aa",
+      "date": "2026-11-02",
+      "meal": "dinner",
+      "stars": 5,
+      "vibe": "🔥",
+      "comment": "",
+      "at": "2026-11-02T13:30:00.000Z"
+    },
+    {
+      "id": "6c6a172d92d9",
+      "userId": "bc14f2a6336e",
+      "date": "2026-10-22",
+      "meal": "snacks",
+      "stars": 5,
+      "vibe": "🔥",
+      "comment": "",
+      "at": "2026-10-22T11:30:00.000Z"
+    },
+    {
+      "id": "5872cef0bc96",
+      "userId": "bc14f2a6336e",
+      "date": "2026-10-23",
+      "meal": "breakfast",
+      "stars": 2,
+      "vibe": "🤢",
+      "comment": "",
+      "at": "2026-10-23T01:30:00.000Z"
+    },
+    {
+      "id": "e84ca48eeb8e",
+      "userId": "bc14f2a6336e",
+      "date": "2026-10-24",
+      "meal": "breakfast",
+      "stars": 2,
+      "vibe": "🤢",
+      "comment": "",
+      "at": "2026-10-24T01:30:00.000Z"
+    },
+    {
+      "id": "5ffdb2ca23ce",
+      "userId": "bc14f2a6336e",
+      "date": "2026-10-25",
+      "meal": "dinner",
+      "stars": 4,
+      "vibe": "😋",
+      "comment": "",
+      "at": "2026-10-25T13:30:00.000Z"
+    },
+    {
+      "id": "fd45ad156c51",
+      "userId": "bc14f2a6336e",
+      "date": "2026-10-26",
+      "meal": "lunch",
+      "stars": 4,
+      "vibe": "😋",
+      "comment": "",
+      "at": "2026-10-26T06:30:00.000Z"
+    },
+    {
+      "id": "7d766bf4b713",
+      "userId": "bc14f2a6336e",
+      "date": "2026-10-26",
+      "meal": "snacks",
+      "stars": 3,
+      "vibe": "😐",
+      "comment": "",
+      "at": "2026-10-26T11:30:00.000Z"
+    },
+    {
+      "id": "9b2e796991c4",
+      "userId": "bc14f2a6336e",
+      "date": "2026-10-27",
+      "meal": "snacks",
+      "stars": 4,
+      "vibe": "😋",
+      "comment": "",
+      "at": "2026-10-27T11:30:00.000Z"
+    },
+    {
+      "id": "65986a4defba",
+      "userId": "bc14f2a6336e",
+      "date": "2026-10-28",
+      "meal": "dinner",
+      "stars": 4,
+      "vibe": "😋",
+      "comment": "",
+      "at": "2026-10-28T13:30:00.000Z"
+    },
+    {
+      "id": "412ba1daab5e",
+      "userId": "bc14f2a6336e",
+      "date": "2026-10-29",
+      "meal": "dinner",
+      "stars": 5,
+      "vibe": "🔥",
+      "comment": "",
+      "at": "2026-10-29T13:30:00.000Z"
+    },
+    {
+      "id": "49c8e0f3e912",
+      "userId": "bc14f2a6336e",
+      "date": "2026-10-30",
+      "meal": "breakfast",
+      "stars": 3,
+      "vibe": "😐",
+      "comment": "",
+      "at": "2026-10-30T01:30:00.000Z"
+    },
+    {
+      "id": "a6ea3fda450e",
+      "userId": "bc14f2a6336e",
+      "date": "2026-10-31",
+      "meal": "breakfast",
+      "stars": 4,
+      "vibe": "😋",
+      "comment": "",
+      "at": "2026-10-31T01:30:00.000Z"
+    },
+    {
+      "id": "1bf8daaf0b00",
+      "userId": "f2829836c109",
+      "date": "2026-10-27",
+      "meal": "snacks",
+      "stars": 3,
+      "vibe": "😐",
+      "comment": "",
+      "at": "2026-10-27T11:30:00.000Z"
+    },
+    {
+      "id": "5c834e580bf5",
+      "userId": "f2829836c109",
+      "date": "2026-10-30",
+      "meal": "snacks",
+      "stars": 2,
+      "vibe": "🤢",
+      "comment": "",
+      "at": "2026-10-30T11:30:00.000Z"
+    },
+    {
+      "id": "7f2173654a83",
+      "userId": "f2829836c109",
+      "date": "2026-10-31",
+      "meal": "lunch",
+      "stars": 3,
+      "vibe": "😐",
+      "comment": "",
+      "at": "2026-10-31T06:30:00.000Z"
+    },
+    {
+      "id": "c7d9c866dcc3",
+      "userId": "f2829836c109",
+      "date": "2026-10-31",
+      "meal": "dinner",
+      "stars": 3,
+      "vibe": "😐",
+      "comment": "",
+      "at": "2026-10-31T13:30:00.000Z"
+    },
+    {
+      "id": "0e829795555a",
+      "userId": "f2829836c109",
+      "date": "2026-11-02",
+      "meal": "dinner",
+      "stars": 4,
+      "vibe": "😋",
+      "comment": "",
+      "at": "2026-11-02T13:30:00.000Z"
+    },
+    {
+      "id": "1e218b5cea34",
+      "userId": "3cb404660451",
+      "date": "2026-10-20",
+      "meal": "breakfast",
+      "stars": 4,
+      "vibe": "😋",
+      "comment": "",
+      "at": "2026-10-20T01:30:00.000Z"
+    },
+    {
+      "id": "c0e67471088e",
+      "userId": "3cb404660451",
+      "date": "2026-10-20",
+      "meal": "snacks",
+      "stars": 3,
+      "vibe": "😐",
+      "comment": "",
+      "at": "2026-10-20T11:30:00.000Z"
+    },
+    {
+      "id": "999ced38307c",
+      "userId": "3cb404660451",
+      "date": "2026-10-20",
+      "meal": "dinner",
+      "stars": 5,
+      "vibe": "🔥",
+      "comment": "",
+      "at": "2026-10-20T13:30:00.000Z"
+    },
+    {
+      "id": "a796c33d89c6",
+      "userId": "3cb404660451",
+      "date": "2026-10-21",
+      "meal": "dinner",
+      "stars": 3,
+      "vibe": "😐",
+      "comment": "",
+      "at": "2026-10-21T13:30:00.000Z"
+    },
+    {
+      "id": "3490b8fe48c5",
+      "userId": "3cb404660451",
+      "date": "2026-10-22",
+      "meal": "lunch",
+      "stars": 3,
+      "vibe": "😐",
+      "comment": "",
+      "at": "2026-10-22T06:30:00.000Z"
+    },
+    {
+      "id": "9822c5df162f",
+      "userId": "3cb404660451",
+      "date": "2026-10-24",
+      "meal": "breakfast",
+      "stars": 3,
+      "vibe": "😐",
+      "comment": "",
+      "at": "2026-10-24T01:30:00.000Z"
+    },
+    {
+      "id": "22734c35a4bd",
+      "userId": "3cb404660451",
+      "date": "2026-10-26",
+      "meal": "lunch",
+      "stars": 2,
+      "vibe": "🤢",
+      "comment": "",
+      "at": "2026-10-26T06:30:00.000Z"
+    },
+    {
+      "id": "472cc0a2da32",
+      "userId": "3cb404660451",
+      "date": "2026-10-30",
+      "meal": "snacks",
+      "stars": 3,
+      "vibe": "😐",
+      "comment": "",
+      "at": "2026-10-30T11:30:00.000Z"
+    }
+  ],
+  "coupons": [
+    {
+      "id": "38acb73d0d62",
+      "sellerId": "518686d0bc0c",
+      "date": "2026-11-04",
+      "meal": "dinner",
+      "price": 55,
+      "note": "going home for the weekend 🏠",
+      "status": "listed",
+      "buyerId": null,
+      "createdAt": "2026-11-03T03:30:00.000Z"
+    },
+    {
+      "id": "4558a0780772",
+      "sellerId": "ed4b51c427aa",
+      "date": "2026-11-04",
+      "meal": "breakfast",
+      "price": 25,
+      "note": "not waking up at 7 lol",
+      "status": "listed",
+      "buyerId": null,
+      "createdAt": "2026-11-03T02:30:00.000Z"
+    },
+    {
+      "id": "bd02d6b20a85",
+      "sellerId": "f2829836c109",
+      "date": "2026-11-04",
+      "meal": "lunch",
+      "price": 60,
+      "note": "hackathon day, catering provided",
+      "status": "listed",
+      "buyerId": null,
+      "createdAt": "2026-11-02T04:30:00.000Z"
+    }
+  ],
+  "transactions": [],
+  "announcements": [
+    {
+      "id": "9af20b95e64a",
+      "title": "Diwali Special Dinner 🪔",
+      "body": "This Friday dinner is a full festive spread — kaju katli, paneer tikka, dal makhani, and live jalebi counter. Dress code: ethnic. Mess closes at 22:00 instead of 21:30.",
+      "tag": "event",
+      "pinned": true,
+      "authorId": "95dfab41cab9",
+      "createdAt": "2026-11-02T04:30:00.000Z",
+      "reactions": {
+        "🔥": [
+          "4c62644348f1",
+          "518686d0bc0c",
+          "818971a513ea"
+        ],
+        "😍": [
+          "ed4b51c427aa"
+        ]
+      }
+    },
+    {
+      "id": "aa6401702a7f",
+      "title": "Mess fee due by the 10th",
+      "body": "Semester mess dues must be cleared by the 10th of this month. Late fee of ₹50/day applies after that. Pay via the student portal.",
+      "tag": "important",
+      "pinned": false,
+      "authorId": "95dfab41cab9",
+      "createdAt": "2026-11-01T04:30:00.000Z",
+      "reactions": {
+        "💀": [
+          "bc14f2a6336e",
+          "f2829836c109"
+        ]
+      }
+    },
+    {
+      "id": "13ccf8bd8e7a",
+      "title": "New: rotating check-in code",
+      "body": "Attendance is now marked with the 6-character code on the screen at the mess entrance. It rotates every 30 seconds, so no proxies 👀",
+      "tag": "update",
+      "pinned": false,
+      "authorId": "95dfab41cab9",
+      "createdAt": "2026-10-30T04:30:00.000Z",
+      "reactions": {
+        "👀": [
+          "4c62644348f1",
+          "3cb404660451"
+        ]
+      }
+    }
+  ],
+  "posts": [
+    {
+      "id": "00ee4650f7fe",
+      "userId": "4c62644348f1",
+      "type": "post",
+      "tag": "food-review",
+      "content": "the paneer butter masala yesterday was actually bussin no cap 🔥 whoever is the new chef pls stay",
+      "upvotes": [
+        "518686d0bc0c",
+        "818971a513ea",
+        "bc14f2a6336e"
+      ],
+      "comments": [
+        {
+          "id": "287dcda7226a",
+          "userId": "818971a513ea",
+          "text": "fr fr 😭",
+          "createdAt": "2026-11-03T03:30:00.000Z"
+        }
+      ],
+      "createdAt": "2026-11-03T02:30:00.000Z"
+    },
+    {
+      "id": "2bcfe9ca411e",
+      "userId": "818971a513ea",
+      "type": "poll",
+      "tag": "poll",
+      "content": "Which sunday special should come back?",
+      "poll": {
+        "options": [
+          {
+            "text": "Chole Bhature",
+            "votes": [
+              "4c62644348f1",
+              "ed4b51c427aa"
+            ]
+          },
+          {
+            "text": "Pav Bhaji",
+            "votes": [
+              "bc14f2a6336e"
+            ]
+          },
+          {
+            "text": "Biryani",
+            "votes": [
+              "518686d0bc0c",
+              "f2829836c109",
+              "3cb404660451"
+            ]
+          }
+        ]
+      },
+      "upvotes": [
+        "ed4b51c427aa"
+      ],
+      "comments": [],
+      "createdAt": "2026-11-02T04:30:00.000Z"
+    },
+    {
+      "id": "1195aa121fdb",
+      "userId": "bc14f2a6336e",
+      "type": "post",
+      "tag": "lost-found",
+      "content": "lost a black bottle (has a frog sticker 🐸) near the dinner counter. pls dm if found",
+      "upvotes": [],
+      "comments": [],
+      "createdAt": "2026-11-02T15:30:00.000Z"
+    },
+    {
+      "id": "34269a56ada9",
+      "userId": "3cb404660451",
+      "type": "post",
+      "tag": "meme",
+      "content": "mess wednesday dinner queue at 7:29pm be like: 🏃‍♂️🏃‍♀️🏃🏃‍♂️🏃‍♀️🏃🏃‍♂️",
+      "upvotes": [
+        "4c62644348f1",
+        "518686d0bc0c",
+        "818971a513ea",
+        "ed4b51c427aa",
+        "f2829836c109"
+      ],
+      "comments": [],
+      "createdAt": "2026-11-01T04:30:00.000Z"
+    }
+  ],
+  "complaints": [
+    {
+      "id": "3887ca3f465d",
+      "userId": "ed4b51c427aa",
+      "category": "hygiene",
+      "title": "Water cooler on 2nd counter is leaking",
+      "description": "Floor is slippery near the cooler, someone might fall.",
+      "status": "in-progress",
+      "anonymous": false,
+      "upvotes": [
+        "4c62644348f1",
+        "518686d0bc0c"
+      ],
+      "response": "Plumber has been called, will be fixed by tomorrow.",
+      "createdAt": "2026-11-01T04:30:00.000Z"
+    },
+    {
+      "id": "45d0cff97959",
+      "userId": "f2829836c109",
+      "category": "food",
+      "title": "Rotis are often cold at dinner",
+      "description": "After 8:30pm rotis are cold and hard. Can we get a hot case?",
+      "status": "open",
+      "anonymous": true,
+      "upvotes": [
+        "818971a513ea",
+        "bc14f2a6336e",
+        "3cb404660451"
+      ],
+      "response": "",
+      "createdAt": "2026-11-02T04:30:00.000Z"
+    }
+  ],
+  "wishlist": [
+    {
+      "id": "a226f85671f8",
+      "dish": "Pizza Night 🍕",
+      "userId": "4c62644348f1",
+      "votes": [
+        "4c62644348f1",
+        "518686d0bc0c",
+        "ed4b51c427aa",
+        "3cb404660451"
+      ],
+      "createdAt": "2026-10-31T04:30:00.000Z"
+    },
+    {
+      "id": "7f64d06246be",
+      "dish": "Dosa Counter at dinner",
+      "userId": "818971a513ea",
+      "votes": [
+        "818971a513ea",
+        "bc14f2a6336e"
+      ],
+      "createdAt": "2026-11-01T04:30:00.000Z"
+    },
+    {
+      "id": "9704d6346155",
+      "dish": "Fresh juice in breakfast",
+      "userId": "f2829836c109",
+      "votes": [
+        "f2829836c109"
+      ],
+      "createdAt": "2026-11-02T04:30:00.000Z"
+    }
+  ]
+}
